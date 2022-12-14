@@ -4,7 +4,7 @@ on:
   workflow_dispatch: 
  #testing the job
 jobs:
-  build:
+  package:
     runs-on: ubuntu-latest
     steps:
       - name: Install SSH Key
